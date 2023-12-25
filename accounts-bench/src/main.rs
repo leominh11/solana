@@ -31,10 +31,10 @@ fn main() {
         .version(solana_version::version!())
         .arg(
             Arg::with_name("num_slots")
-                .long("num_slots")
-                .takes_value(true)
-                .value_name("SLOTS")
-                .help("Number of slots to store to."),
+                    .long("num_slots")
+                    .takes_value(true)
+                    .value_name("SLOTS")
+                    .help("Number of slots to store to."),
         )
         .arg(
             Arg::with_name("num_accounts")
